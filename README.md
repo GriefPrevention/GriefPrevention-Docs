@@ -1,0 +1,2 @@
+# GriefPrevention-Docs
+GriefPrevention "wiki"
