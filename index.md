@@ -2,4 +2,4 @@
 
 Under ~~construction~~ experimentation.
 
-Old documentation can be found at https://griefprevention.com
+Documentation can currently be [found here.](https://github.com/TechFortress/GriefPrevention/wiki)
