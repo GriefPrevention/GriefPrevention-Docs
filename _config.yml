@@ -14,7 +14,7 @@ remote_theme: pmarsceill/just-the-docs
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: GriefPrevention Docs
+title: GriefPrevention Documentation
 description: Documentation for the official and original GriefPrevention Bukkit plugin
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://docs.griefprevention.com" # the base hostname & protocol for your site, e.g. http://example.com
