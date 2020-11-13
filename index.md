@@ -1,12 +1,4 @@
----
-layout: default
-title: Home
-nav_order: 1
-description: "Documentation for the official and original GriefPrevention Bukkit plugin"
-permalink: /
----
-
-# GriefPrevention Docs
+## GriefPrevention Docs
 
 Under ~~construction~~ experimentation.
 
