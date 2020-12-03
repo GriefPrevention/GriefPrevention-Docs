@@ -1,6 +1,11 @@
-# FAQ
+---
+layout: default
+title: FAQ
+nav_order: 2
+description: "Frequently Asked Questions about GriefPrevention"
+---
 
-## Frequently Asked Questions
+# Frequently Asked Questions
 <br><br>
 <details>
 <summary><b>Pressure Plates can be activated/Wooden Buttons can be pressed with Arrows!</b></summary>
