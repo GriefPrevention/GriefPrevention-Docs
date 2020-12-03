@@ -1,4 +1,6 @@
-# Frequently Asked Questions
+# FAQ
+
+## Frequently Asked Questions
 
 <details>
 <summary><b>Pressure Plates can be activated/Wooden Buttons can be pressed with Arrows!</b></summary>
