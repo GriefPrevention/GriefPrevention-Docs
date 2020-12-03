@@ -1,5 +1,5 @@
+# Home
+
 ## GriefPrevention Docs
 
-Under ~~construction~~ experimentation.
-
-Documentation can currently be [found here.](https://github.com/TechFortress/GriefPrevention/wiki)
+Currently under construction; in the meantime, the docs can be [found here.](https://github.com/TechFortress/GriefPrevention/wiki)
