@@ -9,4 +9,6 @@ permalink: /
 
 ## GriefPrevention Docs
 
-Currently under construction; in the meantime, the docs can be [found here.](https://github.com/TechFortress/GriefPrevention/wiki)
+Official documentation for the GriefPrevention Bukkit plugin, applicable to version 17 and greater.
+
+Using GriefPrevention version 16 or earlier? Docs for those are [here.](https://github.com/TechFortress/GriefPrevention/wiki)
