@@ -124,3 +124,12 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+collections:
+  configuration:
+  permalink: "/:collection/:path/"
+  output: true
+just_the_docs:
+  collections:
+    configuration:
+      name: Configuration
