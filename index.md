@@ -11,4 +11,4 @@ permalink: /
 
 Official documentation for the GriefPrevention Bukkit plugin, applicable to version 17 and greater.
 
-Using GriefPrevention version 16 or earlier? Docs for those are [here.](https://github.com/TechFortress/GriefPrevention/wiki)
+Using GriefPrevention Legacy (version 16 or earlier)? Docs for that is over [here.](https://github.com/TechFortress/GriefPrevention/wiki)
