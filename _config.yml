@@ -126,10 +126,11 @@ compress_html:
   #   envs: all
 
 collections:
-  configuration:
+  config_files:
     permalink: "/:collection/:path/"
     output: true
+
 just_the_docs:
   collections:
-    configuration:
+    config_files:
       name: Configuration
