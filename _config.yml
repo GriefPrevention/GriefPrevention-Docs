@@ -124,18 +124,3 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-  bocs:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
-    bocs:
-      name: box
