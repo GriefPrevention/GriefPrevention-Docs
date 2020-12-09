@@ -6,6 +6,9 @@ description: "Frequently Asked Questions about GriefPrevention"
 ---
 
 # Frequently Asked Questions
+
+To be deprecated, but at least revealed I had to set GFM to render markdown inside a `<details>` block
+
 <br><br>
 <details>
 <summary><b>Pressure Plates can be activated/Wooden Buttons can be pressed with Arrows!</b></summary>
