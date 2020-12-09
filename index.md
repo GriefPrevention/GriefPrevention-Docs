@@ -29,8 +29,8 @@ GriefPrevention is a Minecraft server plugin which stops grief before it starts 
     * When a player appears to be building something nice outside his claim, he's warned and shown his claim boundaries.
     * Claim boundaries are easy to see, and don't require any client-side mod installation.
     * Extremely easy-to-remember, single-parameter slash commands for giving other players permissions.
-    * Claim subdivision and granular permissions are available to organize towns and cities. <a href="http://www.youtube.com/watch?v=I3FLCFam5LI">Watch this video.</a>
-* It's IMPOSSIBLE to grief a land claim. Watch <a href="http://www.youtube.com/watch?v=RWekSeMi1OE">this video.</a>
+    * Claim subdivision and granular permissions are available to organize towns and cities. <a href="http://www.youtube.com/watch?v=I3FLCFam5LI" target="_blank">Watch this video.</a>
+* It's IMPOSSIBLE to grief a land claim. Watch <a href="http://www.youtube.com/watch?v=RWekSeMi1OE" target="_blank">this video.</a>
     * No building or breaking.
     * No stealing from ANY containers.
     * No sleeping in beds.
