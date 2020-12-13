@@ -3,21 +3,35 @@ layout: default
 title: Home
 nav_order: 1
 permalink: /
+description: "Documentation for the GriefPrevention Bukkit plugin. Replaces the old wiki."
 ---
 
 # Home
 
-## GriefPrevention Docs
+## GriefPrevention Documentation
 
 **Currently under construction; in the meantime, documentation currently lives [here.](https://github.com/TechFortress/GriefPrevention/wiki)**
 
-Official documentation for the GriefPrevention Bukkit plugin. Get started with the page directory on the left, or find what you're looking for with the search bar at the top.
+---
+
+Welcome to the official documentation for the GriefPrevention Bukkit plugin. From configuration files to command and permission references, this site aims to have it all.
+
+> Note: "Bukkit" refers to the modding API that GriefPrevention (and many other) plugins are built off of. Server software such as Spigot, Paper, Tuinity, CraftBukkit, etc. all implement Bukkit, and therefore GriefPrevention can run on all of these servers. So, the following phrases, while not fully accurate, are true: GriefPrevention Spigot plugin, GriefPrevention Paper plugin, etc.
+
+Get started either by
+- Searching for what you want in the searchbar at the top, or
+- Selecting a topic of interest on the left
+  - or if on phone, by tapping the hamburger button (menu button) on the top right.
+
+This new site replaces the old wiki. If any page is missing info, has typos, or is just plain wrong, feel free to fix it via the "Edit this page" link at the bottom of any page. You can also add new pages too.
 
 ---
 
+### What is GriefPrevention?
+
 GriefPrevention is a Minecraft server plugin which stops grief before it starts automatically without any effort from administrators, and with very little (self service) effort from players. Solve all your grief problems with a single download, no database, and no configuration step (the default configuration is sane and will likely be all you need, but of course everything is configurable and fine-tuneable to your liking).
 
-## Feature List
+#### Feature List
 
 * No database or world backups required.
 * Extremely efficient CPU / RAM usage.
