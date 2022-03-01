@@ -5,8 +5,10 @@ nav_order: 3
 ---
 
 # Setup+Configuration
+{: .no_toc }
 
 ## Table of Contents
+{: .no_toc .text-delta}
 
 - TOC
 {:toc}
@@ -14,8 +16,6 @@ nav_order: 3
 ---
 
 <!-- may want to add link to YAML parser -->
-# Test
-
 Unless you have BOTH creative/survival or PvP/non-PvP worlds on your server, then you do NOT have to configure GriefPrevention to get maximum protection without issue - the defaults should be suitable.
 
 However, this page attempts to detail the available configuration settings you may wish to tweak, if you need to tailor GP's behaviour to your requirements.
@@ -48,6 +48,8 @@ A database URL looks like this: `jdbc:mysql://localhost:3306/gpdata` . The last 
 
 If you have data on the file system already, they will be migrated to the database. Please be patient during the migration process, which can take a while. On my test server, it took 7 minutes to migrate 1400 claims and 5000 players from file system to database. Just in case there's any problem, your file system data is NOT deleted, only moved. If you have a problem, you can quickly recover by copying that backup back into its original place and removing the database configuration fields from your `config.yml`. This will put you back on file system mode with all of your data in place.
 
+---
+
 # Complimentary Plugins
 
 ## Do I need a block logger/rollback plugin?
@@ -59,6 +61,8 @@ In my opinion, no. GriefPrevention will prevent griefers from doing any damage t
 I don't consider cheating to be griefing, unless the server is very competitive (as are many PvP servers). If you're concerned about cheating, I recommend the AntiXRay plugin to stop xrayers from taking all the diamonds, and NoCheatPlus to stop wall climbing, fast running, fast break, kill aura, etc. You should disable NoCheat's anti spam, because GP's anti spam is much more effective (and NoCheatPlus may prevent GP from doing its anti-spam job).
 
 If you're allowing theft or have entirely disabled claims on your server, you may want to replace AntiXRay with orebfuscator to not only protect ores, but also keep player builds hidden.
+
+---
 
 # Plugin Compatibility
 
@@ -84,6 +88,8 @@ This is the tool players will use to create and resize claims. Administrators wi
 `Investigation Tool: STICK`
 
 This is the tool used to visualize a claim by pointing at a build or the ground with the item in your hand and right-clicking.
+
+---
 
 # Land Claim Settings
 
@@ -125,6 +131,7 @@ Maximum depth claims are allowed to reach. If you set this greater than zero, so
 
 The minimum size for sides of a claim. If you make this very small, griefers may run around creating very tiny claims all over the place just to annoy other players. And then you'll have to come clean it up. :) Note that administrative claims (`/adminclaims` mode) ignore this rule, so you can use that together with `/transferclaim` to create smaller claims on a claim-by-claim basis, as needed.
 
+---
 # Claim Security
 
 `Claims.PreventTheft: true`
@@ -139,18 +146,23 @@ Set this to false if you don't want players to use buttons and swtiches to limit
 
 By default, only iron doors are lockable. This encourages players to "earn" their privacy by playing the game enough to gather iron ore, and then learning very basic redstone engineering. If you set this to true, then ALL doors (wooden doors, trap doors, fence gates) will require `/accesstrust` for a player to open, unless the builder has placed a touchplate in front of the door for visitors. Many of your players might not be aware of `/accesstrust`, which could lead to a lot of near-strangers getting `/trust`, which can open a lot of builds to grief.
 
+---
+
 # Restricting Where Claims May Be Created
 
 Use the `claims.worlds` configuration variable to list which worlds players may create claims in. Options are `Survival`, `Creative`, and `Disabled`. Beware - if you set a world to `Disabled` which already includes some land claims, those land claims will stop protecting the blocks inside.
 
 If you want to prevent players from making claims in a specific area without impacting their ability to build there, place an administrative claim and then use `/trust public` while standing inside it. Players can do anything they want there now except for claiming land, because the area is already claimed.
 
+---
 
 # Restricting Who Can Create
 
 By default, all players may create claims with the shovel. To prevent a player from creating land claims with the shovel, take away the `griefprevention.createclaims permission`. This does NOT block new player claims. To disable those for everyone, set the `Claims.AutomaticNewPlayerClaimsRadius to -1`.
 
 If you choose to effectively disable player claims, then you might also want to take away the `griefprevention.claims` permission from all players. This permission is granted to everyone by default, and is necessary for the claims-related slash commands. So by taking it away, you will clean up their `/help` experience.
+
+---
 
 # Expiring Inactive Claims
 
@@ -161,6 +173,8 @@ The `AllClaimDays` config setting is available to you in case you'd like to more
 Claims in creative rules worlds (see config notes above on designating creative rules worlds) will be automatically restored to a natural state when expired. Claims in other worlds will not, since building requires more effort in survival mode, which makes any loss greater if the player does one day return to find his work vanished. You can change these settings in the config file.
 
 It's been suggested that there should be a permission which may be given to players to exempt them from claim expiration, for example for when players go on vacation. It's an excellent idea, but Bukkit does not allow for checking an offline player's permissions. :( If this changes in the future, then I will add the requested permission node. In the meantime, you can use `/TransferClaim` without specifying who to transfer to. This will convert a land claim to an administrative claim, which will never be removed due to player inactivity. You can even `/trust <owner>` and `/permissiontrust <owner>` to ensure that when the player comes back online, he'll still have access to his land claim (except to change its dimensions).
+
+---
 
 # Catching Sneaky Griefers
 
@@ -203,6 +217,8 @@ Set this to true if you want to allow fire to spread. Beware, griefers love to s
 Set this to true if you want to allow fire to destroy blocks. This is a TERRIBLE idea unless you have another plugin which stops this kind of destruction, like for example CreeperHeal. Even if you enable this, blocks inside claims will still be protected from fire, but your trees will be at the mercy of griefers.
 Preventing Chat Trolling
 
+---
+
 # Auto-muting new players who say banned words
 
 See File: BannedWords.txt
@@ -217,17 +233,23 @@ If you don't believe me and still hold onto hope that one can effectively fight 
 
 You can effectively disable this feature by just leaving the banned words file blank (deleting it will reset it - so just empty the list).
 
+---
+
 # Preventing Tree Grief
 
 `LimitSkyTrees: true`
 
 Prevents trees from being planted in the wilderness when they're in shallow dirt (for example a thin platform in the sky). Griefers like to do this because they get a lot of blocks in the sky by placing only a few. Non-griefing players can get around this by making a thicker platform, claiming the area, or planting in grass instead of dirt.
 
+---
+
 # Preventing Player Traps
 
 Griefers can dig a hole and claim it to create a quick and effective trap for other players to get stuck in. When a player complains about being trapped or stuck in chat, he will be educated about the `/trapped` command, which can save him.
 
 Unfortunately, nothing can be done to completely prevent lethal traps, like lava traps. The presence of the claim to make a trap difficult to disarm (by other players) will also make it easy for you to determine who created the trap and take appropriate action. :)
+
+---
 
 # Creative Claims Mode
 
@@ -246,6 +268,8 @@ Unfortunately, nothing can be done to completely prevent lethal traps, like lava
 * TNT doesn't destroy blocks.
 
 If you'd like to lock down a creative world such that players build in plots you specify, then you can disable claims as described above, and use `/transferclaim` with `/adminclaims` to create claims for players in exactly the locations you want them.
+
+---
 
 # Anti-Spam Configuration
 
@@ -277,6 +301,8 @@ Message to display to a spammer who's been automatically banned. Consider additi
 
 A list of IP addresses which you allow players to send via chat. Normally, all IP addresses are muted to prevent server advertisement spam. You may want to add the IP addresses of other Minecraft servers you run, or your Ventrilo/Teamspeak/Mumble server, for example.
 
+---
+
 # PvP Configuration
 
 `PvP.PunishLogout: true`
@@ -297,11 +323,15 @@ Turn this on if you want players to be able to toss items on the ground during c
 
 The number of seconds after the last PvP damage, during which a player is still considered "in combat". This prevents him from logging out without penalty, dropping items, accessing containers, etc.
 
+---
+
 # Economy Integration
 
 If you have the Vault plugin installed AND a Vault-compatible economy plugin installed (see the Vault page for a list), then you may allow players to buy and/or sell claim blocks using server currency by setting the buy and sell values in the config file `GriefPrevention.Economy.ClaimBlocksPurchaseCost`. By default, all players will be able to buy and sell - if you'd like to restrict that to only some players, then take away the `griefprevention.buysellclaimb­locks` permission from any players or player groups who should not be allowed to buy and sell claim allowance.
 
 If your economy integration doesn't seem to be working after initial setup, check your boot logs for hints about the problem.
+
+---
 
 # Non-Standard World Support
 
@@ -309,7 +339,7 @@ Bukkit doesn't always tell plugins the right value for sea level, so if your wor
 
 ---
 
-# PistonMovement
+# Piston Movement
 
 Configuration option `GriefPrevention.PistonMovement`
   * `EVERYWHERE`: Pistons can be used everywhere. All blocks moved are checked to ensure that they do not enter into a claim that is not owned by the owner of the piston's claim.
