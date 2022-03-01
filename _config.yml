@@ -68,6 +68,8 @@ heading_anchors: true
 aux_links:
   "GriefPrevention homepage":
     - "https://griefprevention.com"
+  "Downloads":
+    - "https://dev.bukkit.org/projects/grief-prevention/files"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
