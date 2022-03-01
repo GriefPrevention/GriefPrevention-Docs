@@ -12,7 +12,7 @@ description: "Frequently Asked Questions about GriefPrevention"
 To be deprecated, but at least revealed I had to set GFM to render markdown inside a `<details>` block
 
 <br><br>
-<details markdown="block">
+<details>
 <summary><b>Pressure Plates can be activated/Wooden Buttons can be pressed with Arrows!</b></summary>
 
 This is by design. To protect buttons, use stone buttons instead - these _cannot_ be depressed by arrows.
@@ -28,7 +28,7 @@ This is by design. To protect buttons, use stone buttons instead - these _cannot
 Additionally, it is not technically feasible to determine the projectile that pushed the button - see this comment by Jikoo: [https://github.com/TechFortress/GriefPrevention/issues/647#issuecomment-544924873](https://github.com/TechFortress/GriefPrevention/issues/647#issuecomment-544924873)
 
 > Wooden button usage by projectiles is actually not possible to directly detect via Spigot's API, you have to guess based on which entities are nearby. It becomes a mess - under what circumstances do we block access by other entities?
-</details markdown="span">
+</details>
 <br>
 <details>
 <summary><strong>Claims owned by inactive players aren't expiring!</strong></summary>
@@ -40,7 +40,7 @@ The inactive claims check runs very slowly. It has been improved recently but it
 > It's slow to work, because I want to keep the CPU cost down. About once per minute, GP looks at one land claim to see if it has expired. Slowly over time, old claims from inactive players will disappear.
 
 Note: The method has been modified to now look at a single claim _owner_ per minute instead of a single claim.
-</details markdown="1">
+</details>
 <br>
 <details>
 <summary><b>How do I remove a message from messages.yml?</b></summary>
