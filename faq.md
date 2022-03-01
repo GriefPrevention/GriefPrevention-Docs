@@ -5,8 +5,6 @@ nav_order: 2
 description: "Frequently Asked Questions about GriefPrevention"
 ---
 
-{::options auto_ids="false" footnote_nr="5" syntax_highlighter_opts="{line_numbers: true\}" /}
-
 # Frequently Asked Questions
 
 <!-- To get this to render right, I had to https://github.com/pmarsceill/just-the-docs/issues/246#issuecomment-643783307 -->
