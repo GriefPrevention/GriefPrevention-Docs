@@ -2,6 +2,7 @@
 layout: default
 title: Permissions
 nav_order: 6
+description: Fine-grained permissions control to decide exactly what you want people to be able to do
 ---
 
 # Permissions
