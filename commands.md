@@ -7,7 +7,7 @@ description: GriefPrevention provides a range of commands for players and admini
 
 # Player Commands
 
-All of the permissions below start with "griefprevention.". For example, "restorenature" is "griefprevention.restorenature".  See the [[full list of permissions for more details|Permissions]].
+All of the permissions below start with "griefprevention.". For example, "restorenature" is "griefprevention.restorenature".  See the [full list of permissions for more details](permissions).
 
 | Command | Description | Alias | Perm  |
 | -------------    |:-------------:| -----:| -----:|
