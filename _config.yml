@@ -113,7 +113,7 @@ color_scheme: dark
 #  - jekyll-seo-tag
 
 kramdown:
-  parse_block_html: true
+  parse_block_html: block
 #  syntax_highlighter_opts:
 #    block:
 #      line_numbers: false
