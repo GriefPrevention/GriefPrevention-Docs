@@ -66,10 +66,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Ask questions on GitHub":
-    - "https://github.com/TechFortress/GriefPrevention/discussions"
-  "Chat in IRC/discord":
-    - "https://griefprevention.com/chat"
+  "GriefPrevention homepage":
+    - "https://griefprevention.com"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
