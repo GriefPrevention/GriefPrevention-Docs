@@ -1,18 +1,7 @@
 ---
 layout: default
 title: Commands
-nav_order: 4
----
-
-# Setup+Configuration
-{: .no_toc }
-
-## Table of Contents
-{: .no_toc .text-delta}
-
-- TOC
-{:toc}
-
+nav_order: 5
 ---
 
 # Player Commands
@@ -44,9 +33,6 @@ All of the permissions below start with "griefprevention.". For example, "restor
 | /Siege | Besieges a player (disabled by default). | | siege |
 | /Trapped | Gets a player out of a land claim he's trapped inside. | | trapped |
 | /UnlockDrops | Allows other players to pick up items you dropped when you died. | | unlockdrops |
-
-
-
 
 # Admin Commands
 
