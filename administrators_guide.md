@@ -2,6 +2,7 @@
 layout: default
 title: Administrator's Guide
 nav_order: 4
+description: A more detailed guide for admins/staff of servers using GriefPrevention
 ---
 
 # Administrator's Guide
