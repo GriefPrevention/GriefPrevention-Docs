@@ -5,6 +5,8 @@ nav_order: 2
 description: "Frequently Asked Questions about GriefPrevention"
 ---
 
+{::options auto_ids="false" footnote_nr="5" syntax_highlighter_opts="{line_numbers: true\}" /}
+
 # Frequently Asked Questions
 
 To be deprecated, but at least revealed I had to set GFM to render markdown inside a `<details>` block
@@ -15,30 +17,30 @@ To be deprecated, but at least revealed I had to set GFM to render markdown insi
 
 This is by design. To protect buttons, use stone buttons instead - these _cannot_ be depressed by arrows.
 
-https://www.spigotmc.org/threads/griefprevention.35615/page-31#post-728722
+[https://www.spigotmc.org/threads/griefprevention.35615/page-31#post-728722](https://www.spigotmc.org/threads/griefprevention.35615/page-31#post-728722)
 
 > Players like to use pressure plates with monsters and dropped items, so turning those activators off would be creating a problem by taking away game elements players really enjoy. As long as they're on, any player who I stop from directly activating a plate by standing on it can use either of those as a workaround. Similarly for wooden buttons (arrows). So I allow them outright because otherwise players would get a false sense of security, then feel violated when a clever griefer uses a workaround.
 
-https://www.spigotmc.org/threads/griefprevention.35615/page-19#post-567357
+[https://www.spigotmc.org/threads/griefprevention.35615/page-19#post-567357](https://www.spigotmc.org/threads/griefprevention.35615/page-19#post-567357)
 
 > There's no option to lock pressure plates. Lots of players like to have an option to activate redstone with monsters (monster grinders) or items. If you were to lock them all over your server, those gameplay elements wouldn't be available. So buttons/levers are lockable while touchplates are not - this gives players options so they can create their own exemptions to access rules without having to subdivide their land claims. For example having a door that the public can open (touchplate) and another that only their friends can activate (button/lever). Also monsters and items will never have permission to do anything in a land claim, so by using touchplates, players can let monsters and items activate traps and other gadgets.
 
-Additionally, it is not technically feasible to determine the projectile that pushed the button - see this comment by Jikoo: https://github.com/TechFortress/GriefPrevention/issues/647#issuecomment-544924873
+Additionally, it is not technically feasible to determine the projectile that pushed the button - see this comment by Jikoo: [https://github.com/TechFortress/GriefPrevention/issues/647#issuecomment-544924873](https://github.com/TechFortress/GriefPrevention/issues/647#issuecomment-544924873)
 
 > Wooden button usage by projectiles is actually not possible to directly detect via Spigot's API, you have to guess based on which entities are nearby. It becomes a mess - under what circumstances do we block access by other entities?
-</details>
+</details markdown="span">
 <br>
 <details>
 <summary><strong>Claims owned by inactive players aren't expiring!</strong></summary>
 
 The inactive claims check runs very slowly. It has been improved recently but it is still intentionally slow to avoid any performance impact to the server. If you want this check to run faster, modify the `Advanced.ClaimExpirationCheckRate` config node at your own risk.
 
-https://www.spigotmc.org/threads/griefprevention.35615/page-31#post-728722
+[https://www.spigotmc.org/threads/griefprevention.35615/page-31#post-728722](https://www.spigotmc.org/threads/griefprevention.35615/page-31#post-728722)
 
 > It's slow to work, because I want to keep the CPU cost down. About once per minute, GP looks at one land claim to see if it has expired. Slowly over time, old claims from inactive players will disappear.
 
 Note: The method has been modified to now look at a single claim _owner_ per minute instead of a single claim.
-</details>
+</details markdown="1">
 <br>
 <details>
 <summary><b>How do I remove a message from messages.yml?</b></summary>
@@ -62,7 +64,7 @@ AFK players do not receive claim blocks (unless configured in the `Advanced` sec
 
 `/claimexplosions` is a temporary toggle to allow players to use explosions in their claim to mine, clear out blocks, or whichever temporal reason.
 
-https://www.spigotmc.org/threads/griefprevention.35615/page-63#post-1079544
+[https://www.spigotmc.org/threads/griefprevention.35615/page-63#post-1079544](https://www.spigotmc.org/threads/griefprevention.35615/page-63#post-1079544)
 
 > Yeah sorry, it's meant to be temporary. The usual usage case is "I want to temporarily enable explosions to do some quick digging". So with that case in mind, I automatically disable that setting when the owner player logs off (or the server reboots) so that players don't forget and accidentally leave their claims open to potential grief by TNT-toting or creeper-baiting trolls. 
 </details>
