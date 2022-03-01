@@ -10,7 +10,7 @@ description: "Frequently Asked Questions about GriefPrevention"
 To be deprecated, but at least revealed I had to set GFM to render markdown inside a `<details>` block
 
 <br><br>
-<details>
+<details markdown="block">
 <summary><b>Pressure Plates can be activated/Wooden Buttons can be pressed with Arrows!</b></summary>
 
 This is by design. To protect buttons, use stone buttons instead - these _cannot_ be depressed by arrows.
