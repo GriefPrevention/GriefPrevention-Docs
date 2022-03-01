@@ -5,6 +5,15 @@ nav_order: 3
 has_children: false
 ---
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 <!-- may want to add link to YAML parser -->
 
 Unless you have BOTH creative/survival or PvP/non-PvP worlds on your server, then you do NOT have to configure GriefPrevention to get maximum protection without issue - the defaults should be suitable.
