@@ -9,7 +9,7 @@ description: "Frequently Asked Questions about GriefPrevention"
 
 # Frequently Asked Questions
 
-To be deprecated, but at least revealed I had to set GFM to render markdown inside a `<details>` block
+<!-- To get this to render right, I had to https://github.com/pmarsceill/just-the-docs/issues/246#issuecomment-643783307 -->
 
 <br><br>
 <details markdown="block">
