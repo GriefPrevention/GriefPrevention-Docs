@@ -2,8 +2,8 @@
 layout: default
 title: Setup+Configuration
 nav_order: 3
-has_children: false
 ---
+
 # Setup+Configuration
 
 ## Table of Contents
@@ -14,6 +14,7 @@ has_children: false
 ---
 
 <!-- may want to add link to YAML parser -->
+# Test
 
 Unless you have BOTH creative/survival or PvP/non-PvP worlds on your server, then you do NOT have to configure GriefPrevention to get maximum protection without issue - the defaults should be suitable.
 
@@ -22,6 +23,8 @@ However, this page attempts to detail the available configuration settings you m
 If you have such a complex server configuration, or if you're interested in reducing protection or tweaking some settings, keep reading. Otherwise, just copy/paste the JAR into your plugins folder and /reload; a default config will be created for you.
 
 If you update a config file, you can use /gpreload to reload the config. This does NOT completely reload the plugin, so if you download an updated JAR file, you still have to /reload or reboot your server to get all the changes.
+
+---
 
 # Limiting Which Worlds GriefPrevention Runs On
 
@@ -32,6 +35,8 @@ When you disable land claims in a world, most of GriefPrevention's features turn
 Beware - if you set a world to `Disabled` which already includes some land claims, those land claims will stop protecting the blocks inside. You can use this setting, for example, to turn off GP land claims in a Factions or Towny world.
 
 Warning about `SurvivalRequiringClaims`: This is designed for survival servers which have a designated resource-gathering world. Because claiming land without building first requires a golden shovel, you may want to either set an easier-to-get claim creation tool (see config), or add other plugins to make the golden shovel more accessible to your players. Also remember that you can modify `messages.yml` to customize GriefPrevention's help messages so that they're more helpful to the players on your not-so-standard server. Finally, remember that a player could potentially claim land, build/break stuff, then move his land claim. You can discourage this using GriefPrevention's config file option to have players lose some or all claim blocks used in a land claim when abandoning the claim. Please do what you can to make this mode work for you - because very few server owners use it, I don't want to overcomplicate it.
+
+---
 
 # Optional Database Configuration
 
