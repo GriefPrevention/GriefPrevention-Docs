@@ -2,6 +2,7 @@
 layout: default
 title: Commands
 nav_order: 5
+description: GriefPrevention provides a range of commands for players and administrators
 ---
 
 # Player Commands
