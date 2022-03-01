@@ -2,6 +2,7 @@
 layout: default
 title: Setup+Configuration
 nav_order: 3
+description: How to configure GriefPrevention to your particular requirements (although the defaults will suit most!)
 ---
 
 # Setup+Configuration
