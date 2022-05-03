@@ -147,6 +147,10 @@ Set this to false if you don't want players to use buttons and swtiches to limit
 
 By default, only iron doors are lockable. This encourages players to "earn" their privacy by playing the game enough to gather iron ore, and then learning very basic redstone engineering. If you set this to true, then ALL doors (wooden doors, trap doors, fence gates) will require `/accesstrust` for a player to open, unless the builder has placed a touchplate in front of the door for visitors. Many of your players might not be aware of `/accesstrust`, which could lead to a lot of near-strangers getting `/trust`, which can open a lot of builds to grief.
 
+`Claims.PreventNonPlayerCreatedPortals: false`
+
+By default, any portal created by a player will be checked to ensure that player has access to the claim the remote portal will end up in. Setting this option to true will mean that any portal creation that cannot be attributed to a player will also be blocked. If this option is set to false, only player related portals can be checked and blocked for griefing behavior. 
+
 ---
 
 # Restricting Where Claims May Be Created
