@@ -27,6 +27,7 @@ description: Fine-grained permissions control to decide exactly what you want pe
 |griefprevention.eavesdropsigns | Allows the player to receive notifications about newly-placed signs. |
 |griefprevention.overrideclaimcountlimit | Allows a player to bypass the total claim count limit set in your config file (defaults to no limit). |
 |griefprevention.spam | Allows the player to bypass the spam protection. |
+|griefprevention.premovementchat | Allows the player to chat without having to move first. |
 |griefprevention.siegeimmune | Makes a player immune to the /siege command. |
 |griefprevention.notignorable | Makes a player immune to the /ignore command. |
 |griefprevention.seeinactivity | Allows player to see how long a claim owner has been offline by using the claim investigation tool (default:stick). |
