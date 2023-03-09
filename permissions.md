@@ -20,6 +20,7 @@ description: Fine-grained permissions control to decide exactly what you want pe
 |griefprevention.createclaims | Allows players to create claims with the claim creation tool (default shovel). All players have this permission by default. |
 |griefprevention.transferclaim | Grants access to the /transferclaim command. |
 |griefprevention.claims | This permission is granted to everyone by default, and is necessary for the claims-related slash commands. |
+|griefprevention.abandonallclaims | This permission is granted to everyone by default and allows the player to abandon all of its claims using the /abandonallclaims command |
 |griefprevention.buysellclaimb­locks | This permission is granted to everyone by default and allows the player the ability to buy/sell claim blocks |
 |griefprevention.adjustclaimblocks | Allows the player to adjust player's bonus claim blocks amount |
 |griefprevention.visualizenearbyclaims | Allows the player to shift+right click with investigation tool (stick) in hand to see all nearby land claims. |
