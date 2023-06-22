@@ -75,3 +75,16 @@ AFK players do not receive claim blocks (unless configured in the `Advanced` sec
 Read the documentation for `ExtendIntoGroundDistance`: https://github.com/TechFortress/GriefPrevention/wiki/Setup-and-Configuration#claim-limits
 </details>
 <br>
+<details markdown="block">
+<summary><b>Can I have /ignoreclaims be on by default?</b></summary>
+
+GriefPrevention is designed to be self-service with minimal administrative intervention. Additionally, the "least permission principle" is a best practice for administration, meaning that permissions should only be elevated when necessary. Thus, no option for a default admin mode will be considered in GriefPrevention directly. However, you can easily add this functionality via an addon or by other methods.
+
+See more on this subject here: https://github.com/TechFortress/GriefPrevention/discussions/991#discussioncomment-171621
+
+> No, there's no option for that. You have to turn it on each time you log in. This is a safety feature - it's sometimes easy to not realize you're in someone's land claim when you are. By defaulting to off, you get a "warning" that tells you you're about to change someone's land claim. Then you can explicitly opt-into ignoring claims if that's what you really want to do. I think most admins actually like it this way - some have even asked me to automatically turn /ic off after some time to ensure they don't forget and leave it on.
+
+> That's by design. GP won't let an admin accidentally change a claimed area. The way it does that is by insisting admins type /ic before they make changes where players have protected. If you want to risk shooting yourself in the foot by unintentionally wrecking someone's build and thus incurring the wrath of your players, then the cost for that will be four keystrokes per login.
+
+</details>
+<br>
