@@ -24,6 +24,7 @@ GriefPrevention is a Bukkit plugin, and therefore is compatible with the followi
 1. <a href="https://github.com/TechFortress/GriefPrevention/releases/latest" target="_blank">Download GriefPrevention.jar</a>
 1. Put the `GriefPrevention.jar` file in your server's `plugins` folder.
 1. Start (or restart) your server.
+1. Check the [Features](features/) page to see some of what GriefPrevention can do for your server.
 
 ## Additional Help+Support
 
