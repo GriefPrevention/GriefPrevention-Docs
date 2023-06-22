@@ -66,10 +66,10 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "GriefPrevention homepage":
+  "Homepage":
     - "https://griefprevention.com"
-  "Downloads":
-    - "https://dev.bukkit.org/projects/grief-prevention/files"
+  "Download":
+    - "https://github.com/TechFortress/GriefPrevention/releases/latest"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
