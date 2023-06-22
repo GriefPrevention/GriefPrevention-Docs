@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ
-nav_order: 2
+nav_order: 3
 description: "Frequently Asked Questions about GriefPrevention"
 ---
 
