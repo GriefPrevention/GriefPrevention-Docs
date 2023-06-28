@@ -32,8 +32,7 @@ If you wish to report a bug, please use the [Issue Tracker](https://github.com/T
 
 If you have questions or are just interested in general discussion about the GriefPrevention plugin:
 
-- [GitHub Discussions](https://github.com/TechFortress/GriefPrevention/discussions)
+- [GitHub Discussions (Official forum](https://github.com/TechFortress/GriefPrevention/discussions)
 - [#GriefPrevention chat channel on IRC or discord](https://griefprevention.com/chat)
 - [Grief Prevention on dev.bukkit.org](https://dev.bukkit.org/projects/grief-prevention)
 - [GriefPrevention on spigotmc.org](https://www.spigotmc.org/resources/griefprevention.1884/)
-- [GriefPrevention on Hangar](https://hangar.papermc.io/GriefPrevention/GriefPrevention)
