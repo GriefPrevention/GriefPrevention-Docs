@@ -20,7 +20,7 @@ Documentation for developers is currently very sparse. Please feel free to help 
 
 # Adding GriefPrevention as a maven/gradle/etc. dependency
 
-GriefPrevention will be added to maven central soon - in the meantime, there's this neat thing called JitPack [![](https://jitpack.io/v/TechFortress/GriefPrevention.svg)](https://jitpack.io/#TechFortress/GriefPrevention) that makes a public maven repo for public Github repos on the fly.
+GriefPrevention will be added to maven central soon - in the meantime, there's this neat thing called [JitPack](https://jitpack.io/#GriefPrevention/GriefPrevention) that makes a public maven repo for public Github repos on the fly.
 According to it, this is all you need to do to add to your pom.xml:
 ```xml
 	<repositories>
@@ -31,16 +31,16 @@ According to it, this is all you need to do to add to your pom.xml:
 	</repositories>
 ```
 
-Replace `<version>` number with this number: [![](https://jitpack.io/v/TechFortress/GriefPrevention.svg)](https://jitpack.io/#TechFortress/GriefPrevention)
+
 ```xml
 	<dependency>
-	    <groupId>com.github.TechFortress</groupId>
+	    <groupId>com.github.GriefPrevention</groupId>
 	    <artifactId>GriefPrevention</artifactId>
-	    <version>16.18</version>
+	    <version>16.18.2</version>
             <scope>provided</scope>
 	</dependency>
 ```
 
-You can also add it to gradle/sbt/leiningen projects: https://jitpack.io/#TechFortress/GriefPrevention/
+You can also add it to gradle/sbt/leiningen projects: https://jitpack.io/#GriefPrevention/GriefPrevention/
 
 ---
