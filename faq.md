@@ -11,6 +11,17 @@ description: "Frequently Asked Questions about GriefPrevention"
 
 <br><br>
 <details markdown="block">
+<summary><b>Are there placeholders?</b></summary>
+
+GriefPrevention does not hook into any placeholder API, thus it does not provide any "placeholders." However, other plugins and addons are free to hook into GriefPrevention and create their own placeholders for GriefPrevention. Here is a very minimal list of discussions and documentation sites:
+
+- https://wiki.placeholderapi.com/users/placeholder-list/#griefprevention
+- https://github.com/GriefPrevention/GriefPrevention/discussions/2256
+- https://github.com/GriefPrevention/GriefPrevention/discussions/923
+
+</details>
+<br>
+<details markdown="block">
 <summary><b>Pressure Plates can be activated/Wooden Buttons can be pressed with Arrows!</b></summary>
 
 This is by design. To protect buttons, use stone buttons instead - these _cannot_ be depressed by arrows.
