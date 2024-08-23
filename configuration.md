@@ -206,7 +206,7 @@ Most players see Enderman vandalism as an annoyance. It's too expensive to alway
 
 `CreaturesTrampleCrops: false`
 
-Players can never trample crops. This configuration option stops monsters and animals from trampling crops, which is important because resourceful griefers will "lead" monsters and animals to trample crops. If you allow animals to trample crops with this option, they can trample crops anywhere, even in claimed areas (it's too expensive to make this selective).
+This configuration option stops monsters and animals from trampling crops, which is important because resourceful griefers will "lead" monsters and animals to trample crops. If you allow animals to trample crops with this option, they can trample crops anywhere, even in claimed areas (it's too expensive to make this selective).
 
 `RabbitsEatCrops: true`
 
