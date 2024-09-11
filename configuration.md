@@ -124,13 +124,16 @@ To disable automatic new player claims entirely, set this to a negative number. 
 
 How far into the ground a new claim should extend from the golden shovel location. If the golden shovel is used at two different heights, the lower value will be used in conjunction with this variable. To guarantee all claims run all the way to bedrock, use a very large number. The default doesn't sink to bedrock because that would effectively claim valuable ore that the player placing them claim hasn't discovered yet. Please note! As a player digs or builds underneath his claim, his claim automatically sinks lower with him. Thus, mine shafts and basements are safe from grief even if you set this variable at a small value.
 
-`Claims.MaximumDepth: 0`
+`Claims.MaximumDepth: -2147483648`
 
-Maximum depth claims are allowed to reach. If you set this greater than zero, some players may have difficulty because they're not accustomed to thinking in terms of coordinates. Further, a future patch may remove the debug screen (which displays coords) from the standard client. Anyway if you don't want players claiming underground, you can set this to something near sea level. Or, lower to prevent players from claiming diamond-laden areas.
+Maximum depth claims are allowed to reach. If you set this greater than the world depth, some players may have difficulty because they're not accustomed to thinking in terms of coordinates. Further, a future patch may remove the debug screen (which displays coords) from the standard client. Anyway if you don't want players claiming underground, you can set this to something near sea level. Or, lower to prevent players from claiming diamond-laden areas.
 
-`Claims.MinSize: 10`
+`Claims.MinimumWidth: 5` and `Claims.MinimumArea: 100`
 
-The minimum size for sides of a claim. If you make this very small, griefers may run around creating very tiny claims all over the place just to annoy other players. And then you'll have to come clean it up. :) Note that administrative claims (`/adminclaims` mode) ignore this rule, so you can use that together with `/transferclaim` to create smaller claims on a claim-by-claim basis, as needed.
+Minimum width controls the minimum length of both sides of a claim. The default of 5 allows players to make longer and slimmer claims for roads.  
+Minimum area controls the minimum total area encompassed by the claim (X length * Z length), ensuring that claims require a certain level of investment and are relatively easy to locate.
+
+If the minimums are too small, griefers may run around creating very tiny claims all over the place just to annoy other players, requiring you to perform manual cleanup. Note that administrative claims (`/adminclaims` mode) ignore this rule, so you can use that together with `/transferclaim` to create smaller claims on a claim-by-claim basis as needed.
 
 ---
 # Claim Security
