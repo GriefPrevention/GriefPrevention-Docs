@@ -15,10 +15,10 @@ description: "Frequently Asked Questions about GriefPrevention"
 
 GriefPrevention does not hook into any placeholder API, thus it does not provide any "placeholders." However, other plugins and addons are free to hook into GriefPrevention and create their own placeholders for GriefPrevention. Here is a very minimal list of discussions and documentation sites:
 
-- https://wiki.placeholderapi.com/users/placeholder-list/#griefprevention
-- https://api.extendedclip.com/expansions/griefprevention/
-- https://github.com/GriefPrevention/GriefPrevention/discussions/2256
-- https://github.com/GriefPrevention/GriefPrevention/discussions/923
+- <https://wiki.placeholderapi.com/users/placeholder-list/#griefprevention>
+- <https://api.extendedclip.com/expansions/griefprevention/>
+- <https://github.com/GriefPrevention/GriefPrevention/discussions/2256>
+- <https://github.com/GriefPrevention/GriefPrevention/discussions/923>
 
 </details>
 <br>
