@@ -214,7 +214,8 @@ This configuration option stops monsters and animals from trampling crops, which
 `RabbitsEatCrops: true`
 
 This is debatably not "grief", since it's not controlled by players, but Vanilla rabbit behavior can be an annoyance to farmers. You may disable this option to prevent rabbits from eating crops.
-Controlling Fire
+
+## Controlling Fire
 
 `FireSpreads: false`
 
@@ -223,11 +224,13 @@ Set this to true if you want to allow fire to spread. Beware, griefers love to s
 `FireDestroys: false`
 
 Set this to true if you want to allow fire to destroy blocks. This is a TERRIBLE idea unless you have another plugin which stops this kind of destruction, like for example CreeperHeal. Even if you enable this, blocks inside claims will still be protected from fire, but your trees will be at the mercy of griefers.
-Preventing Chat Trolling
+
 
 ---
 
-# Auto-muting new players who say banned words
+# Preventing Chat Trolling
+
+## Auto-muting new players who say banned words
 
 See File: BannedWords.txt
 
