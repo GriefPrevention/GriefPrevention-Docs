@@ -69,7 +69,7 @@ aux_links:
   "Homepage":
     - "https://griefprevention.com"
   "Download":
-    - "https://github.com/TechFortress/GriefPrevention/releases/latest"
+    - "https://github.com/GriefPrevention/GriefPrevention/releases/latest"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
