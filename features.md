@@ -8,6 +8,9 @@ nav_order: 2
 
 GriefPrevention is a Minecraft server plugin which stops grief before it starts automatically without any effort from administrators, and with very little (self service) effort from players. Solve all your grief problems with a single download, no database, and no configuration step (the default configuration is sane and will likely be all you need, but of course everything is configurable and fine-tuneable to your liking).
 
+{: .note}
+Addons can add new features to GriefPrevention. Check <https://github.com/GriefPrevention/GriefPrevention/discussions/categories/addons> for a small list of the many GriefPrevention addons you can install.
+
 #### Feature List
 
 * No database or world backups required.
