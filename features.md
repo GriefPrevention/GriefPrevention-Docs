@@ -67,19 +67,6 @@ Addons can add new features to GriefPrevention. Check <https://github.com/GriefP
     * Creepers and other explosions don't destroy blocks above sea level.
     * TNT doesn't destroy blocks above sea level.
     * No planting trees on platforms in the sky ("tree grief").
-    * Instant, point and click nature restoration for not-claimed areas. Watch this video.
-        * Insanely easy and fast fixes for penises, swastikas, and anything else unsightly.
-        * Point at what you don't like and click, and it's fixed. Even from far away.
-        * Never accidentally changes blocks inside land claims.
-        * No need to investigate who built it, who broke it, or when they did it.
-        * Doesn't matter if the griefer built with "natural" blocks, it will still be fixed.
-        * No database.
-        * No backups.
-        * No chunk regeneration (it's dangerous for technical reasons).
-        * Fixes bad chunk generations, like floating islands. It will be better than new.
-        * Fills holes, even next to water to correct big spills.
-        * Smooths noisy terrain.
-        * No griefer construction is safe. If it's unnatural enough to be noticeable by players, it will be removed or filled-in.
 
 * Land claims can't be used as a griefing tool.
     * It's impossible to get a player "stuck" inside a land claim.
@@ -99,9 +86,7 @@ Addons can add new features to GriefPrevention. Check <https://github.com/GriefP
     * When PvP is off, no setting fire or dumping lava near other players.
     * Absolutely bullet-proof anti-spawn-camping protection including bed respawns, which requires no configuration.
     * No logging out, stashing items, or using plugin teleportation to escape combat.
-    * Optional siege mode, to answer players who hide in their claimed houses to avoid combat.
 
 * Supports your server growth.
-    * Permit players to exchange server currency for claim blocks (requires configuration and other plugins).
     * Grant claim blocks automatically for votes, donations, etc (console command provided, other plugins required).
 
