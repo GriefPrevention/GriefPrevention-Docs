@@ -140,7 +140,7 @@ callouts:
     color: green
   note:
     title: Note
-    color: purple
+    color: lavender
   warning:
     title: Warning
     color: red
