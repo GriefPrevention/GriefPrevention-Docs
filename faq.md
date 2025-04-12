@@ -11,6 +11,20 @@ description: "Frequently Asked Questions about GriefPrevention"
 
 <br><br>
 <details markdown="block">
+<summary><b>/trust isn't working for non-op players! Players can't build or open chests!</b></summary>
+
+You are likely encountering vanilla Minecraft's spawn protection, which prevents non-op players from performing interactions in a radius around the world's spawn point.
+
+This vanilla spawn protection only becomes active if a player has been opped.
+
+To disable vanilla Minecraft's spawn protection:
+- Open the `server.properties` file.
+- Change the value of `spawn-protection` to `0`. It should look like: `spawn-protection=0`
+- Save the file and restart your server.
+
+</details>
+<br>
+<details markdown="block">
 <summary><b>Are there placeholders?</b></summary>
 
 GriefPrevention does not hook into any placeholder API, thus it does not provide any "placeholders." However, other plugins and addons are free to hook into GriefPrevention and create their own placeholders for GriefPrevention. Here is a very minimal list of discussions and documentation sites:
