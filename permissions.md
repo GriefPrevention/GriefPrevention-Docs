@@ -8,7 +8,7 @@ description: Fine-grained permissions control to decide exactly what you want pe
 # Permissions
 
 | Permission | Description |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|------------|-------------|
 | griefprevention.abandonallclaims | This permission is granted to everyone by default and allows the player to abandon all of its claims using the /abandonallclaims command |
 | griefprevention.adjustclaimblocks | Allows the player to adjust player's bonus claim blocks amount |
 | griefprevention.adminclaims | Allows creating, deleting and building in administrative claims |
