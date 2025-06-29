@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Features
+title: Features+Addons
 nav_order: 2
 ---
 
@@ -8,10 +8,10 @@ nav_order: 2
 
 GriefPrevention is a Minecraft server plugin which stops grief before it starts automatically without any effort from administrators, and with very little (self service) effort from players. Solve all your grief problems with a single download, no database, and no configuration step (the default configuration is sane and will likely be all you need, but of course everything is configurable and fine-tuneable to your liking).
 
-{: .note}
-Addons can add new features to GriefPrevention. Check <https://github.com/GriefPrevention/GriefPrevention/discussions/categories/addons> for a small list of the many GriefPrevention addons you can install.
+### Addons
+Addons add new features to GriefPrevention! Check the [Addons category in the forum](https://github.com/GriefPrevention/GriefPrevention/discussions/categories/addons) for a small list of the many GriefPrevention addons you can install.
 
-#### Feature List
+### Core features
 
 * No database or world backups required.
 * Extremely efficient CPU / RAM usage.
@@ -62,11 +62,10 @@ Addons can add new features to GriefPrevention. Check <https://github.com/GriefP
     * Blocks bot team spam.
     * Blocks slash command spam, including /tell, /emote, and any more you add.
 
-* Wilderness Protection and Rollback
+* Wilderness Protection
     * Fire doesn't spread or destroy blocks.
     * Creepers and other explosions don't destroy blocks above sea level.
     * TNT doesn't destroy blocks above sea level.
-    * No planting trees on platforms in the sky ("tree grief").
 
 * Land claims can't be used as a griefing tool.
     * It's impossible to get a player "stuck" inside a land claim.
@@ -80,7 +79,7 @@ Addons can add new features to GriefPrevention. Check <https://github.com/GriefP
     * Logs sign placements.
     * /SoftMute command to shut down chat trolls without them knowing they're beaten.
     * Abridged chat logs make reviewing what happened while you were away super-quick and easy.
-    * Automatically mutes new-to-server players who use racial or homophobic slurs.
+    * Automatically mutes new-to-server players who use common slurs.
 
 * PvP Protections.
     * When PvP is off, no setting fire or dumping lava near other players.
