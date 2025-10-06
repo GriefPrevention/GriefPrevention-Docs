@@ -68,6 +68,9 @@ Required Permission: `griefprevention.claimslistother`
 
 The `/claimslist <player name>` command will list all of a player's claims along with their sizes and locations, and summarize the claim block math for you.
 
+## Investigating a specific claim
+
+Equip the investigation tool (stick by default), and right click the claimed area.
 
 ## Fighting Wilderness Grief (World Repair)
 
