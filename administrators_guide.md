@@ -70,7 +70,7 @@ The `/claimslist <player name>` command will list all of a player's claims along
 
 ## Investigating a specific claim
 
-Equip the investigation tool (stick by default), and right click the claimed area.
+Equip the investigation tool (stick by default), and right click the claimed area. You can also right click while sneaking to show nearby claims.
 
 ## Fighting Wilderness Grief (World Repair)
 
