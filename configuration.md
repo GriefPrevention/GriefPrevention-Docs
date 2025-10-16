@@ -124,9 +124,9 @@ To disable automatic new player claims entirely, set this to a negative number. 
 
 How far into the ground a new claim should extend from the golden shovel location. If the golden shovel is used at two different heights, the lower value will be used in conjunction with this variable. To guarantee all claims run all the way to bedrock, use a very large number. The default doesn't sink to bedrock because that would effectively claim valuable ore that the player placing them claim hasn't discovered yet. Please note! As a player digs or builds underneath his claim, his claim automatically sinks lower with him. Thus, mine shafts and basements are safe from grief even if you set this variable at a small value.
 
-`Claims.MaximumDepth: -2147483648`
+`Claims.MinimumY: -2147483648`
 
-Maximum depth claims are allowed to reach. If you set this greater than the world depth, some players may have difficulty because they're not accustomed to thinking in terms of coordinates. Further, a future patch may remove the debug screen (which displays coords) from the standard client. Anyway if you don't want players claiming underground, you can set this to something near sea level. Or, lower to prevent players from claiming diamond-laden areas.
+Controls the lowest depth where players can protect land with claims. The default value allows claims to extend all the way down to the world's bottom (bedrock level). Setting this to a higher number prevents players from claiming below that height level. For example, setting this to 63 would prevent claiming below sea level, and setting it to 16 would prevent claiming in the deepest mining areas where diamonds are typically found. This is useful if you want to keep valuable underground resources in public areas or prevent players from claiming deep underground where they might be hard to find.
 
 `Claims.MinimumWidth: 5` and `Claims.MinimumArea: 100`
 
