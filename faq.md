@@ -27,14 +27,14 @@ To disable vanilla Minecraft's spawn protection:
 <details markdown="block">
 <summary><b>Are there placeholders?</b></summary>
 
-GriefPrevention does not hook into any placeholder API, thus it does not provide any "placeholders." However, other plugins and addons are free to hook into GriefPrevention and create their own placeholders for GriefPrevention. You will find **better support from these plugins' support channels** instead of GriefPrevention's.
+Placeholders for GriefPrevention are provided by either the placeholder plugin itself or addons. **Consult your placeholder plugin's documentation for available placeholders.**
 
-Here is a very minimal list of these other plugins' documentation:
+Here are a few links to these other plugins' documentation:
 
 - <https://wiki.placeholderapi.com/users/placeholder-list/#griefprevention>
 - <https://api.extendedclip.com/expansions/griefprevention/>
 
-Also see these discussions for links of other related plugins:
+Also see these discussions for links of other related plugins and addons:
 - <https://github.com/GriefPrevention/GriefPrevention/discussions/2256>
 - <https://github.com/GriefPrevention/GriefPrevention/discussions/923>
 
