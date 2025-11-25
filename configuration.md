@@ -128,6 +128,20 @@ How far into the ground a new claim should extend from the golden shovel locatio
 
 Controls the lowest depth where players can protect land with claims. The default value allows claims to extend all the way down to the world's bottom (bedrock level). Setting this to a higher number prevents players from claiming below that height level. For example, setting this to 63 would prevent claiming below sea level, and setting it to 16 would prevent claiming in the deepest mining areas where diamonds are typically found. This is useful if you want to keep valuable underground resources in public areas or prevent players from claiming deep underground where they might be hard to find.
 
+`Claims.MinimumYOverrides`
+
+Allows setting different minimum claim depths for each world, overriding the global `MinimumY` value. This is useful when different worlds have different needs. For example, you might want the overworld to allow claims all the way to bedrock, but restrict claims in the nether so players can build safely on the nether roof while leaving the lower areas open for everyone to explore. Worlds not listed here will use the global `MinimumY` setting. To add an override, manually add the world name and desired minimum Y value to your config:
+
+```yaml
+Claims:
+  MinimumY: 16
+  MinimumYOverrides:
+    world_nether: 127
+    creative_world: -2147483648
+```
+
+In this example, claims in `world_nether` cannot extend below `Y=127` (allowing unrestricted access below the nether roof), while `creative_world` has no depth limit. All other worlds use the global default (`Y=16`).
+
 `Claims.MinimumWidth: 5` and `Claims.MinimumArea: 100`
 
 Minimum width controls the minimum length of both sides of a claim. The default of 5 allows players to make longer and slimmer claims for roads.  
